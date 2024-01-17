@@ -1,0 +1,16 @@
+@import "./animations.scss";
+@import "./fonts.scss";
+@import "./variables.scss";
+
+// Pages
+@import "./pages";
+
+body,
+html {
+    height: 100vh !important;
+    overflow-x: hidden
+}
+
+// Import Bootstrap and BootstrapVue source SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
